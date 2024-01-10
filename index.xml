@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+    <product>
+        <watch xmlns:watches="www.brand.com">
+            <brand type= "name">Rolex</brand>
+            <price type="number">99$</price>
+        </watch>
+        <airpod xmlns:airpod="www.brand.com">
+            <brand>Audionic</brand>
+            <price>48$</price>
+        </airpod>
+        <mobile xmlns:mobile="www.brand.com">
+            <brand>iPhone</brand>
+            <price>499$</price>
+        </mobile>
+    </product>
+</products>
