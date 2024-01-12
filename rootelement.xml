@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE students [
+    <!ELEMENT students (student+)>
+    <!ELEMENT student (name,class,age,email)>
+
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT class (#PCDATA)>
+    <!ELEMENT age (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ATTLIST student id CDATA #REQUIRED>
+]>
+
+
+
+
+
+
+
+
+<students>
+    <student id="123">
+        <name>M.Hasan</name>
+        <class>1st Year</class>
+        <age>17</age>
+        <email>mohammadhasanqureshi6@gmail.com</email>
+    </student>
+
+    <student id="123">
+        <name>M.Hansan</name>
+        <class>1st Year</class>
+        <age>17</age>
+        <email>mohammadhasanqureshi6@gmail.com</email>
+    </student>
+
+    <student id="123">
+        <name>M.Hasan</name>
+        <class>1st Year</class>
+        <age>17</age>
+        <email>mohammadhasanqureshi6@gmail.com</email>
+    </student>
+</students>
