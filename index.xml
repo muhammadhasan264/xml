@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="style.xsl" type="text/xsl"?>
 <products>
     <product>
-        <watch xmlns:watches="www.brand.com">
-            <brand type= "name">Rolex</brand>
-            <price type="number">99$</price>
-        </watch>
-        <airpod xmlns:airpod="www.brand.com">
-            <brand>Audionic</brand>
-            <price>48$</price>
-        </airpod>
-        <mobile xmlns:mobile="www.brand.com">
-            <brand>iPhone</brand>
-            <price>499$</price>
-        </mobile>
+        <name>watch</name>
+        <brand>Rolex</brand>
+        <price>99$</price>
+    </product>
+
+    <product>
+        <name>Airpod</name>
+        <brand>Audionic</brand>
+        <price>48$</price>
+    </product>
+    <product>
+        <name>Mobile</name>
+        <brand>iPhone</brand>
+        <price>499$</price>
     </product>
 </products>
