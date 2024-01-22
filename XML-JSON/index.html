@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let data= `{
+    "products":[
+        {
+            "name": "airpod",
+            "brands": "ronin",
+            "price": "3000pkr",
+            "options": [{"audionic":"4000", "apple": "25000", "ronin": "3000"},{"audionic":"4000", "apple": "25000", "ronin": "3000"}]
+        },
+        {
+            "name": "airpod",
+            "brands": "ronin",
+            "price": "3000pkr",
+            "options": [{"audionic":"4000", "apple": "25000", "ronin": "3000"},{"audionic":"4000", "apple": "25000", "ronin": "3000"}]
+        }
+    ]
+}
+        `
+        console.log(JSON.parse(data).products[0])
+    </script>
+</body>
+</html>

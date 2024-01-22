@@ -1,0 +1,16 @@
+{
+    "products":[
+        {
+            "name": "airpod",
+            "brands": "ronin",
+            "price": "3000pkr",
+            "options": [{"audionic":"4000", "apple": "25000", "ronin": "3000"},{"audionic":"4000", "apple": "25000", "ronin": "3000"}]
+        },
+        {
+            "name": "airpod",
+            "brands": "ronin",
+            "price": "3000pkr",
+            "options": [{"audionic":"4000", "apple": "25000", "ronin": "3000"},{"audionic":"4000", "apple": "25000", "ronin": "3000"}]
+        }
+    ]
+}
